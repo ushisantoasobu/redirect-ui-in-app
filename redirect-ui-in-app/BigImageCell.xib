@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="BigImageCell" customModule="redirect_ui_in_app" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="319.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iBQ-95-SNh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="320.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="glitch.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="lfO-le-EvJ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="320.5"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="lfO-le-EvJ" secondAttribute="trailing" id="0s3-pP-Ga9"/>
+                            <constraint firstItem="lfO-le-EvJ" firstAttribute="top" secondItem="iBQ-95-SNh" secondAttribute="top" id="7da-DQ-SMG"/>
+                            <constraint firstItem="lfO-le-EvJ" firstAttribute="leading" secondItem="iBQ-95-SNh" secondAttribute="leading" id="BHw-JG-rDX"/>
+                            <constraint firstAttribute="bottom" secondItem="lfO-le-EvJ" secondAttribute="bottom" id="DnO-V0-45e"/>
+                            <constraint firstAttribute="trailing" secondItem="lfO-le-EvJ" secondAttribute="trailing" id="Fjp-zp-pCl"/>
+                            <constraint firstAttribute="bottom" secondItem="lfO-le-EvJ" secondAttribute="bottom" id="XWb-za-C8J"/>
+                            <constraint firstAttribute="width" secondItem="iBQ-95-SNh" secondAttribute="height" multiplier="1:1" id="g4X-4O-Syh"/>
+                            <constraint firstItem="lfO-le-EvJ" firstAttribute="top" secondItem="iBQ-95-SNh" secondAttribute="top" id="m1Q-e3-2ya"/>
+                            <constraint firstItem="lfO-le-EvJ" firstAttribute="leading" secondItem="iBQ-95-SNh" secondAttribute="leading" id="vlv-sF-YAG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="iBQ-95-SNh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="K1m-cw-5LF"/>
+                    <constraint firstItem="iBQ-95-SNh" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="LFl-2M-sc9"/>
+                    <constraint firstItem="iBQ-95-SNh" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="UAj-QX-3up"/>
+                    <constraint firstAttribute="trailing" secondItem="iBQ-95-SNh" secondAttribute="trailing" id="XLb-wE-yqt"/>
+                    <constraint firstItem="iBQ-95-SNh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="eLD-gQ-LE3"/>
+                    <constraint firstAttribute="bottom" secondItem="iBQ-95-SNh" secondAttribute="bottom" id="tEc-Cg-bjZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="99" y="-3"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="glitch.JPG" width="3024" height="3024"/>
+    </resources>
+</document>

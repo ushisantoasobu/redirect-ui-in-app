@@ -14,6 +14,13 @@
 		D6A1CAA62196A05E0071DF92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A1CAA42196A05E0071DF92 /* LaunchScreen.storyboard */; };
 		D6A1CAB12196A05E0071DF92 /* redirect_ui_in_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A1CAB02196A05E0071DF92 /* redirect_ui_in_appTests.swift */; };
 		D6A1CABC2196A05E0071DF92 /* redirect_ui_in_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A1CABB2196A05E0071DF92 /* redirect_ui_in_appUITests.swift */; };
+		D6A1CACA2196A1890071DF92 /* SomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A1CAC92196A1890071DF92 /* SomeTableViewController.swift */; };
+		D6A1CACC2196A1960071DF92 /* SomeTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A1CACB2196A1960071DF92 /* SomeTableViewController.storyboard */; };
+		D6A1CACE2196A4500071DF92 /* glitch.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D6A1CACD2196A4500071DF92 /* glitch.JPG */; };
+		D6A1CAD32196A5180071DF92 /* BigImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A1CAD12196A5180071DF92 /* BigImageCell.swift */; };
+		D6A1CAD42196A5180071DF92 /* BigImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A1CAD22196A5180071DF92 /* BigImageCell.xib */; };
+		D6A1CAD72196A5290071DF92 /* BigTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A1CAD52196A5290071DF92 /* BigTextCell.swift */; };
+		D6A1CAD82196A5290071DF92 /* BigTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A1CAD62196A5290071DF92 /* BigTextCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		D6A1CAB72196A05E0071DF92 /* redirect-ui-in-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "redirect-ui-in-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A1CABB2196A05E0071DF92 /* redirect_ui_in_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redirect_ui_in_appUITests.swift; sourceTree = "<group>"; };
 		D6A1CABD2196A05E0071DF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6A1CAC92196A1890071DF92 /* SomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeTableViewController.swift; sourceTree = "<group>"; };
+		D6A1CACB2196A1960071DF92 /* SomeTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SomeTableViewController.storyboard; sourceTree = "<group>"; };
+		D6A1CACD2196A4500071DF92 /* glitch.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = glitch.JPG; sourceTree = "<group>"; };
+		D6A1CAD12196A5180071DF92 /* BigImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigImageCell.swift; sourceTree = "<group>"; };
+		D6A1CAD22196A5180071DF92 /* BigImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BigImageCell.xib; sourceTree = "<group>"; };
+		D6A1CAD52196A5290071DF92 /* BigTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTextCell.swift; sourceTree = "<group>"; };
+		D6A1CAD62196A5290071DF92 /* BigTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BigTextCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +112,18 @@
 			isa = PBXGroup;
 			children = (
 				D6A1CA9B2196A05D0071DF92 /* AppDelegate.swift */,
-				D6A1CA9D2196A05D0071DF92 /* ViewController.swift */,
-				D6A1CA9F2196A05D0071DF92 /* Main.storyboard */,
 				D6A1CAA22196A05E0071DF92 /* Assets.xcassets */,
-				D6A1CAA42196A05E0071DF92 /* LaunchScreen.storyboard */,
+				D6A1CAD12196A5180071DF92 /* BigImageCell.swift */,
+				D6A1CAD22196A5180071DF92 /* BigImageCell.xib */,
+				D6A1CAD52196A5290071DF92 /* BigTextCell.swift */,
+				D6A1CAD62196A5290071DF92 /* BigTextCell.xib */,
+				D6A1CACD2196A4500071DF92 /* glitch.JPG */,
 				D6A1CAA72196A05E0071DF92 /* Info.plist */,
+				D6A1CAA42196A05E0071DF92 /* LaunchScreen.storyboard */,
+				D6A1CA9F2196A05D0071DF92 /* Main.storyboard */,
+				D6A1CACB2196A1960071DF92 /* SomeTableViewController.storyboard */,
+				D6A1CAC92196A1890071DF92 /* SomeTableViewController.swift */,
+				D6A1CA9D2196A05D0071DF92 /* ViewController.swift */,
 			);
 			path = "redirect-ui-in-app";
 			sourceTree = "<group>";
@@ -229,8 +250,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A1CACC2196A1960071DF92 /* SomeTableViewController.storyboard in Resources */,
 				D6A1CAA62196A05E0071DF92 /* LaunchScreen.storyboard in Resources */,
+				D6A1CAD82196A5290071DF92 /* BigTextCell.xib in Resources */,
+				D6A1CAD42196A5180071DF92 /* BigImageCell.xib in Resources */,
 				D6A1CAA32196A05E0071DF92 /* Assets.xcassets in Resources */,
+				D6A1CACE2196A4500071DF92 /* glitch.JPG in Resources */,
 				D6A1CAA12196A05D0071DF92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6A1CA9E2196A05D0071DF92 /* ViewController.swift in Sources */,
+				D6A1CACA2196A1890071DF92 /* SomeTableViewController.swift in Sources */,
+				D6A1CAD32196A5180071DF92 /* BigImageCell.swift in Sources */,
+				D6A1CAD72196A5290071DF92 /* BigTextCell.swift in Sources */,
 				D6A1CA9C2196A05D0071DF92 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

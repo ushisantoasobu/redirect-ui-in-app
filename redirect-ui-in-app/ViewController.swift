@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func tapped(_ sender: Any) {
+        let vc = SomeTableViewController.instantiate()
+        self.present(vc, animated: true, completion: nil)
+    }
 }
 
