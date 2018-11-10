@@ -22,7 +22,7 @@ class SomeTableViewController: UIViewController {
         "Following the completion of 140 events across the globe, 61 national champions have emerged. They will now represent their country on the biggest W.A.C stage ever. \rOur events are a rare opportunity to gather coffee-loving people from all over the world and so, in the spirit of our true-blue Aussie hospitality, we’re getting out the barbie and throwing a little get-together. "
     ]
 
-    let duration: Double = 0.48
+    let duration: Double = 1.0
 
     @IBOutlet weak var container: UIView!
     @IBOutlet weak var tableView: UITableView!
@@ -87,7 +87,8 @@ extension SomeTableViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
 
-        guard indexPath.row == 0 else { return }
+        // compromise > <...
+//        guard indexPath.row == 0 else { return }
 
         let vc = SomeImageViewController.instantiate()
         vc.modalPresentationStyle = .overCurrentContext
