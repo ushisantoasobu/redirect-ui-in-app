@@ -17,7 +17,7 @@ class ViewController: UIViewController {
 
     @IBAction func tapped(_ sender: Any) {
         let vc = SomeTableViewController.instantiate()
-        self.present(vc, animated: true, completion: nil)
+        self.present(vc, animated: false, completion: nil)
     }
 }
 

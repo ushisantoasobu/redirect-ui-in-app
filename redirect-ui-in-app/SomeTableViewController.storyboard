@@ -25,12 +25,15 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gzf-WH-1Yp">
-                                        <rect key="frame" x="315" y="48" width="44" height="44"/>
+                                        <rect key="frame" x="311" y="48" width="48" height="44"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="44" id="QIq-rf-gXp"/>
+                                            <constraint firstAttribute="width" constant="48" id="QIq-rf-gXp"/>
                                             <constraint firstAttribute="height" constant="44" id="tSU-Od-kmb"/>
                                         </constraints>
-                                        <state key="normal" title="X"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="14"/>
+                                        <state key="normal" title="close">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="closeButtonTapped:" destination="K7R-jC-eGZ" eventType="touchUpInside" id="43D-iA-GZZ"/>
                                         </connections>
@@ -57,6 +60,7 @@
                         <viewLayoutGuide key="safeArea" id="fWc-Ed-JaG"/>
                     </view>
                     <connections>
+                        <outlet property="container" destination="2Ys-e3-hGY" id="0xa-Kr-lZi"/>
                         <outlet property="tableView" destination="gM6-3Z-OeP" id="kkE-jo-jou"/>
                     </connections>
                 </viewController>
