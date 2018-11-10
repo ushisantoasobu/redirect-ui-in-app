@@ -22,7 +22,7 @@ class SomeTableViewController: UIViewController {
         "Following the completion of 140 events across the globe, 61 national champions have emerged. They will now represent their country on the biggest W.A.C stage ever. \rOur events are a rare opportunity to gather coffee-loving people from all over the world and so, in the spirit of our true-blue Aussie hospitality, we’re getting out the barbie and throwing a little get-together. "
     ]
 
-    let duration: Double = 1.0
+    let duration: Double = 0.48
 
     @IBOutlet weak var container: UIView!
     @IBOutlet weak var tableView: UITableView!
@@ -42,6 +42,8 @@ class SomeTableViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        self.view.backgroundColor = UIColor.clear
 
         self.tableView.delegate = self
         self.tableView.dataSource = self

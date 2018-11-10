@@ -2,9 +2,9 @@
 
 This is some kind of experimental project for **redirectable** in iOS, inspired by [Designing Fluid Interfaces](https://developer.apple.com/videos/play/wwdc2018/803/).
 
-### memo
+### :warning: caution
 
-:warning: This is what I would like to know **how does it feel?** in the result of this exmeriment. So the codes are **baaaaad!!!**, not practical, I know these.
+This is what I would like to know **how does it feel?** in the result of this exmeriment. So the codes are **baaaaad!!!**, not practical, I know these.
 
 ## cancellable transition
 
