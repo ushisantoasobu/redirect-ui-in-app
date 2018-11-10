@@ -57,6 +57,8 @@ class SomeTableViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
+        if self.presented { return }
+
         self.present()
     }
 
@@ -80,6 +82,13 @@ extension SomeTableViewController: UITableViewDelegate, UITableViewDataSource {
             cell.bigTextLabel.text = list[indexPath.row - 1]
             return cell
         }
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
+
+        let vc = SomeImageViewController.instantiate()
+        self.present(vc, animated: false, completion: nil)
     }
 
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
