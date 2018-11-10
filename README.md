@@ -4,7 +4,7 @@ This is some kind of experimental project for **redirectable** in iOS, inspired 
 
 ### memo
 
-This is what I want to research for **how does it feel?**. So the codes are **baaaaad!!!**, I know this.
+:warning: This is what I would like to know **how does it feel?** in the result of this exmeriment. So the codes are **baaaaad!!!**, not practical, I know these.
 
 ## cancellable transition
 
