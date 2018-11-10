@@ -87,7 +87,10 @@ extension SomeTableViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
 
+        guard indexPath.row == 0 else { return }
+
         let vc = SomeImageViewController.instantiate()
+        vc.modalPresentationStyle = .overCurrentContext
         self.present(vc, animated: false, completion: nil)
     }
 
