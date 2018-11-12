@@ -8,12 +8,12 @@ This is what I would like to know **how does it feel?** in the result of this ex
 
 ## normal
 
-https://github.com/ushisantoasobu/redirect-ui-in-app/blob/master/redirectable-in-app-1.gif
+![result](https://github.com/ushisantoasobu/redirect-ui-in-app/blob/master/redirectable-in-app-1.gif)
 
 ## cancellable transition
 
-https://github.com/ushisantoasobu/redirect-ui-in-app/blob/master/redirectable-in-app-2.gif
+![result](https://github.com/ushisantoasobu/redirect-ui-in-app/blob/master/redirectable-in-app-2.gif)
 
 ## scrollable when transition
 
-https://github.com/ushisantoasobu/redirect-ui-in-app/blob/master/redirectable-in-app-3.gif
+![result](https://github.com/ushisantoasobu/redirect-ui-in-app/blob/master/redirectable-in-app-3.gif)
