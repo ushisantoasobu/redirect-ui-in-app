@@ -6,14 +6,14 @@ This is some kind of experimental project for **redirectable** in iOS, inspired 
 
 This is what I would like to know **how does it feel?** in the result of this exmeriment. So the codes are **baaaaad!!!**, not practical, I know these.
 
+## normal
+
+https://github.com/ushisantoasobu/redirect-ui-in-app/blob/master/redirectable-in-app-1.gif
+
 ## cancellable transition
 
-...
+https://github.com/ushisantoasobu/redirect-ui-in-app/blob/master/redirectable-in-app-2.gif
 
 ## scrollable when transition
 
-...
-
-## touchable when transition
-
-...
+https://github.com/ushisantoasobu/redirect-ui-in-app/blob/master/redirectable-in-app-3.gif
